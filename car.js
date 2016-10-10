@@ -1,8 +1,8 @@
 var Car = function (color, convertible) {
-  this.color = color
-  this.speed = 0
   this.convertible = convertible
-
+  this.speed = 0
+  this.color = color
+  
   this.decelerate = function (minusSpeed) {
     this.speed -= minumSpeed
   }
