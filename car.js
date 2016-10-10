@@ -3,15 +3,9 @@ var Car = function (color, convertible) {
   this.speed = 0
   this.convertible = convertible
 
-
-  this.accelerate = function(num) {
-    this.speed += num
+  this.decelerate = function (minusSpeed) {
+    this.speed -= minumSpeed
   }
-
-  this.addColor = function(newColor) {
-    this.color = newColor
-  }
-
 }
 
 module.exports = Car
